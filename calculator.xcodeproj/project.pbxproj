@@ -12,6 +12,8 @@
 		E6D2B8D01D2EA9F50092D66B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6D2B8CE1D2EA9F50092D66B /* Main.storyboard */; };
 		E6D2B8D21D2EA9F50092D66B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6D2B8D11D2EA9F50092D66B /* Assets.xcassets */; };
 		E6D2B8D51D2EA9F50092D66B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6D2B8D31D2EA9F50092D66B /* LaunchScreen.storyboard */; };
+		E6D2B8DD1D2EB8030092D66B /* VCR_OSD_MONO_1.001.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E6D2B8DC1D2EB8030092D66B /* VCR_OSD_MONO_1.001.ttf */; };
+		E6D2B8DF1D2EBD130092D66B /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = E6D2B8DE1D2EBD130092D66B /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E6D2B8D11D2EA9F50092D66B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6D2B8D41D2EA9F50092D66B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E6D2B8D61D2EA9F50092D66B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6D2B8DC1D2EB8030092D66B /* VCR_OSD_MONO_1.001.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = VCR_OSD_MONO_1.001.ttf; sourceTree = "<group>"; };
+		E6D2B8DE1D2EBD130092D66B /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		E6D2B8C91D2EA9F50092D66B /* calculator */ = {
 			isa = PBXGroup;
 			children = (
+				E6D2B8DC1D2EB8030092D66B /* VCR_OSD_MONO_1.001.ttf */,
+				E6D2B8DE1D2EBD130092D66B /* btn.wav */,
 				E6D2B8CA1D2EA9F50092D66B /* AppDelegate.swift */,
 				E6D2B8CC1D2EA9F50092D66B /* ViewController.swift */,
 				E6D2B8CE1D2EA9F50092D66B /* Main.storyboard */,
@@ -122,7 +128,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6D2B8DF1D2EBD130092D66B /* btn.wav in Resources */,
 				E6D2B8D51D2EA9F50092D66B /* LaunchScreen.storyboard in Resources */,
+				E6D2B8DD1D2EB8030092D66B /* VCR_OSD_MONO_1.001.ttf in Resources */,
 				E6D2B8D21D2EA9F50092D66B /* Assets.xcassets in Resources */,
 				E6D2B8D01D2EA9F50092D66B /* Main.storyboard in Resources */,
 			);
